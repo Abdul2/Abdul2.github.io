@@ -1,10 +1,27 @@
 {
   "meta": {
-    "username": "put your username here",
-    "repositoryName": "put your repository name here",
+    "username": "Abdul2",
+    "repositoryName": "Abdul2.github.io",
     "branch": "master"
   },
   "theme": {
-    "name": "Casper"
+    "name": "casper"
+  },
+  "urls": {
+    "site": "https://Abdul2.github.io",
+    "hubpress": "https://abdul2.github.io",
+    "theme": "//Abdul2.github.io/themes/casper",
+    "images": "https://Abdul2.github.io/images"
+  },
+  "initialisationConfigComponent": {
+    "name": "initialise-configuration",
+    "computed": {},
+    "methods": {},
+    "staticRenderFns": [
+      null,
+      null,
+      null
+    ],
+    "_Ctor": {}
   }
 }
