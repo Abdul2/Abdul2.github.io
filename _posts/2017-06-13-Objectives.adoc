@@ -1,0 +1,19 @@
+= Objectives 
+
+== Tactical 
+
+	1. Support the delivery of 365, EUD and networks 
+    2. Enable CTI services to mature 
+    3. Ensure good documentations and easy access
+    
+== Strategic
+
+1. Aim for mature infrascture service 
+
+2. Help the delivery of worldclass infrastructure 
+
+== Organisational 
+
+1. Contribute to the org learning 
+2. work with HR on resourcing 
+3. Improve the HO tech image 
