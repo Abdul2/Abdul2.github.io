@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://Abdul2.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 13 Jun 2017 12:06:53 GMT</lastBuildDate><atom:link href="https://Abdul2.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Objectives]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://Abdul2.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 14 Jun 2017 21:19:11 GMT</lastBuildDate><atom:link href="https://Abdul2.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Objectives]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_tactical">Tactical</h2>
 <div class="sectionbody">
 <div class="olist arabic">
@@ -48,6 +48,35 @@
 </ol>
 </div>
 </div>
-</div>]]></description><link>https://Abdul2.github.io/2017/06/13/Objectives.html</link><guid isPermaLink="true">https://Abdul2.github.io/2017/06/13/Objectives.html</guid><dc:creator><![CDATA[abdul abdi]]></dc:creator><pubDate>Tue, 13 Jun 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[CoE learning]]></title><description><![CDATA[<div class="paragraph">
-<p>as part of the internal learning we will publish a posts to enhance the learning experiance</p>
-</div>]]></description><link>https://Abdul2.github.io/2017/06/13/CoE-learning.html</link><guid isPermaLink="true">https://Abdul2.github.io/2017/06/13/CoE-learning.html</guid><dc:creator><![CDATA[abdul abdi]]></dc:creator><pubDate>Tue, 13 Jun 2017 00:00:00 GMT</pubDate></item></channel></rss>
+</div>]]></description><link>https://Abdul2.github.io/2017/06/13/Objectives.html</link><guid isPermaLink="true">https://Abdul2.github.io/2017/06/13/Objectives.html</guid><dc:creator><![CDATA[abdul abdi]]></dc:creator><pubDate>Tue, 13 Jun 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Automation]]></title><description><![CDATA[<div class="sect1">
+<h2 id="__em_intro_em"><em>intro</em></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This is as simple tutorial for non-techies. it shows how, with little or technical DevOps.<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnote_1" title="View footnote.">1</a>]</sup> skills,  can automate the deployment of a simple application.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="__em_objectives_em"><em>objectives</em></h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>understand DevOps concepts</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_what_do_you_need">what do you need</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnote_1">
+<a href="#_footnoteref_1">1</a>. term used to describe function and people who are employed to build and manage computer resources. DevOps is in vauge and very much in demand.
+</div>
+</div>]]></description><link>https://Abdul2.github.io/2017/06/13/Automation.html</link><guid isPermaLink="true">https://Abdul2.github.io/2017/06/13/Automation.html</guid><dc:creator><![CDATA[abdul abdi]]></dc:creator><pubDate>Tue, 13 Jun 2017 00:00:00 GMT</pubDate></item></channel></rss>
