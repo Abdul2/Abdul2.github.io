@@ -1,0 +1,42 @@
+= Bitesize Learning for DDaT Insider
+
+- - - 
+
+== Micro-Learning
+
+is a way of organising self-directed learning into lots of small
+chunks
+
+
+== Format
+
+* Videos
+* Articles 
+* Animation
+* Other
+
+<<< 
+
+
+= Tech concepts
+
+== Lesson 1
+
+== Objectives:
+
+== To demonstrate the following concepts
+
+* Repo
+* Github
+* Application Hosting
+* Continuous Integration
+
+    
+
+
+
+
+
+
+
+
