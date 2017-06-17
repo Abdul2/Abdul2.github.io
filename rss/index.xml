@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://Abdul2.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 17 Jun 2017 06:58:14 GMT</lastBuildDate><atom:link href="https://Abdul2.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Objectives]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://Abdul2.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 17 Jun 2017 07:05:24 GMT</lastBuildDate><atom:link href="https://Abdul2.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Bitesize Learning for DDaT Insider]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<hr>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_micro_learning">Micro-Learning</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>is a way of organising self-directed learning into lots of small
+chunks</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_format">Format</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Videos</p>
+</li>
+<li>
+<p>Articles</p>
+</li>
+<li>
+<p>Animation</p>
+</li>
+<li>
+<p>Other</p>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<h1 id="_tech_concepts" class="sect0">Tech concepts</h1>
+<div class="sect1">
+<h2 id="_lesson_1">Lesson 1</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_objectives">Objectives:</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_to_demonstrate_the_following_concepts">To demonstrate the following concepts</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Repo</p>
+</li>
+<li>
+<p>Github</p>
+</li>
+<li>
+<p>Application Hosting</p>
+</li>
+<li>
+<p>Continuous Integration</p>
+</li>
+</ul>
+</div>
+</div>
+</div>]]></description><link>https://Abdul2.github.io/2017/06/17/Bitesize-Learning-for-D-DT-Insider.html</link><guid isPermaLink="true">https://Abdul2.github.io/2017/06/17/Bitesize-Learning-for-D-DT-Insider.html</guid><dc:creator><![CDATA[abdul abdi]]></dc:creator><pubDate>Sat, 17 Jun 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Objectives]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_tactical">Tactical</h2>
 <div class="sectionbody">
 <div class="olist arabic">
