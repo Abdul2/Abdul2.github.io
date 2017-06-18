@@ -1,0 +1,5 @@
+= Bitesize Learning for DDaT Insider
+
+image::http://github.com/Abdul2/Abdul2.github.io/images/diag.pdf[]
+
+image::http://rawgit.com/Abdul2/abdul2.github.io/gh-pages/images/diag.pdf[]
