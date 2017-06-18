@@ -1,4 +1,0 @@
-= Bitesize Learning for DDaT Insider
-
-
-image::https://github.com/Abdul2/abdul2.github.io/blob/gh-pages/images/diag.pdf[click]
