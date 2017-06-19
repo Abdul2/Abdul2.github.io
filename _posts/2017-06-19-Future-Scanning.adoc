@@ -1,0 +1,27 @@
+= Future Scanning
+
+== what's going to shape our world of IT in mid to long term 
+
+
+1. Automation
+
+	Automate Everything and we will go beyond software automation.
+    
+2. Artificial Intelligence
+
+	Software will do more of the human tasks. Intelligent pieces of software will replace human management.
+    
+3. Augmented and Virtual Reality
+
+	You do not have to go anywhere to experience the reality. Reality comes to you.
+
+4. Blockchain
+
+	No need for the middleman. Data will protect itself and become context aware
+
+5. Predictive Analysis
+
+	After the event activities will move to before the event. We will know something before it happens.
+    
+---
+_Next_ : what does it all mean in our case?. and what are the future business  problems that the new tech will solve.
