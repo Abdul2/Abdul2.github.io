@@ -1,74 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://Abdul2.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 18 Jun 2017 07:42:08 GMT</lastBuildDate><atom:link href="https://Abdul2.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Bitesize Learning for DDaT Insider]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://Abdul2.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 19 Jun 2017 08:49:31 GMT</lastBuildDate><atom:link href="https://Abdul2.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Future Scanning]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_what_s_going_to_shape_our_world_of_it_in_mid_to_long_term">what&#8217;s going to shape our world of IT in mid to long term</h2>
 <div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Automation</p>
+<div class="literalblock">
+<div class="content">
+<pre>Automate Everything and we will go beyond software automation.</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Artificial Intelligence</p>
+<div class="literalblock">
+<div class="content">
+<pre>Software will do more of the human tasks. Intelligent pieces of software will replace human management.</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Augmented and Virtual Reality</p>
+<div class="literalblock">
+<div class="content">
+<pre>You do not have to go anywhere to experience the reality. Reality comes to you.</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Blockchain</p>
+<div class="literalblock">
+<div class="content">
+<pre>No need for the middleman. Data will protect itself and become context aware</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Predictive Analysis</p>
+<div class="literalblock">
+<div class="content">
+<pre>After the event activities will move to before the event. We will know something before it happens.</pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
 <hr>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_micro_learning">Micro-Learning</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>is a way of organising self-directed learning into lots of small
-chunks</p>
+<p><em>Next</em> : what does it all mean in our case?. and what are the future business  problems that the new tech will solve.</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_format">Format</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>Videos</p>
-</li>
-<li>
-<p>Articles</p>
-</li>
-<li>
-<p>Animation</p>
-</li>
-<li>
-<p>Other</p>
-</li>
-</ul>
-</div>
-<div style="page-break-after: always;"></div>
-</div>
-</div>
-<h1 id="_tech_concepts" class="sect0">Tech concepts</h1>
-<div class="sect1">
-<h2 id="_lesson_1">Lesson 1</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="_objectives">Objectives:</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="_to_demonstrate_the_following_concepts">To demonstrate the following concepts</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>Automated deployment</p>
-</li>
-</ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="https://Abdul2.github.io/images/abdul2.github.io/images/diag.pdf" alt="diag.pdf">
-</div>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="http://github.com/Abdul2/Abdul2.github.io//gh-pages/images/diag.jpg" alt="diag.jpg">
-</div>
-</div>
-</div>
-</div>]]></description><link>https://Abdul2.github.io/2017/06/17/Bitesize-Learning-for-D-DT-Insider.html</link><guid isPermaLink="true">https://Abdul2.github.io/2017/06/17/Bitesize-Learning-for-D-DT-Insider.html</guid><dc:creator><![CDATA[abdul abdi]]></dc:creator><pubDate>Sat, 17 Jun 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Objectives]]></title><description><![CDATA[<div class="sect1">
+</div>]]></description><link>https://Abdul2.github.io/2017/06/19/Future-Scanning.html</link><guid isPermaLink="true">https://Abdul2.github.io/2017/06/19/Future-Scanning.html</guid><dc:creator><![CDATA[abdul abdi]]></dc:creator><pubDate>Mon, 19 Jun 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Objectives]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_tactical">Tactical</h2>
 <div class="sectionbody">
 <div class="olist arabic">
