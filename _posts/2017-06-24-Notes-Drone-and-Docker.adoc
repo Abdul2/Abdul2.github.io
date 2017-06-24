@@ -1,0 +1,21 @@
+= Notes - Drone and Docker
+	
+== drone
+    
+    docker run -d \
+  -e DRONE_GITHUB=true \
+  -e DRONE_GITHUB_CLIENT=... \
+  -e DRONE_GITHUB_SECRET=... \
+  -e DRONE_SECRET=... \
+  -e DRONE_OPEN=true  \
+  -e DRONE_ADMIN=...  \
+  -v /var/lib/drone:/var/lib/drone \
+  -p 80:8000 \
+  --restart=always \
+  --name=drone \
+  drone/drone:0.5
+
+== docker 
+
+	docker stop $(docker ps -a -q)
+	docker rm $(docker ps -a -q)
