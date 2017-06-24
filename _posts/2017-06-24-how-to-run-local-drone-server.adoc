@@ -1,0 +1,41 @@
+= how to run local drone server 
+
+
+
+== intro 
+
+you can run drone on your Mac and hook-it up to github account. this means you can have your own CI platform. this short note is to remind me what i did to install drone and  hook my github account to it.
+ 
+ 
+== steps
+
+1. Register a new OAuth application with github
+
+	a. in your github account go to settings
+    b. in settings go to OAuth Application and register new application
+    
+    	Authorization callback URL --> http://127.0.0.1:9001
+        Homepage URL --> http://localhost:9001/
+        
+      c. the above registration will produce Client ID and Client Secret (you will use these in your drone deployment
+      
+
+2. run drone docker
+
+	docker run -d \
+  -e DRONE_GITHUB=true \
+  -e DRONE_GITHUB_CLIENT=<clientID> \
+  -e DRONE_GITHUB_SECRET=<ClientSecret> \
+  -e DRONE_SECRET=<userselectedvalue> \
+  -e DRONE_OPEN=true  \
+  -e DRONE_ADMIN=<name>  \
+  -v /var/lib/drone:/var/lib/drone \
+  -p 9001:8000 \
+  --restart=always \
+  --name=drone \
+  drone/drone:0.5
+  
+3. go to http://localhost:9001/
+
+
+
