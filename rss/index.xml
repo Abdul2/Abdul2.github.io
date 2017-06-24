@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://Abdul2.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 19 Jun 2017 13:02:55 GMT</lastBuildDate><atom:link href="https://Abdul2.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Objectives of a central team engineering and architecture team]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://Abdul2.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 24 Jun 2017 09:31:15 GMT</lastBuildDate><atom:link href="https://Abdul2.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Notes - Drone and Docker]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_drone">drone</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>  docker run -d \
+-e DRONE_GITHUB=true \
+-e DRONE_GITHUB_CLIENT=... \
+-e DRONE_GITHUB_SECRET=... \
+-e DRONE_SECRET=... \
+-e DRONE_OPEN=true  \
+-e DRONE_ADMIN=...  \
+-v /var/lib/drone:/var/lib/drone \
+-p 80:8000 \
+--restart=always \
+--name=drone \
+drone/drone:0.5</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_docker">docker</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)</pre>
+</div>
+</div>
+</div>
+</div>]]></description><link>https://Abdul2.github.io/2017/06/24/Notes-Drone-and-Docker.html</link><guid isPermaLink="true">https://Abdul2.github.io/2017/06/24/Notes-Drone-and-Docker.html</guid><dc:creator><![CDATA[abdul abdi]]></dc:creator><pubDate>Sat, 24 Jun 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Objectives of a central team engineering and architecture team]]></title><description><![CDATA[<div class="paragraph">
 <p>1 Build an efficient and effective org which encourages and celebrates diversity</p>
 </div>
 <div class="paragraph">
