@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://Abdul2.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 24 Jun 2017 09:31:15 GMT</lastBuildDate><atom:link href="https://Abdul2.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Notes - Drone and Docker]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://Abdul2.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 24 Jun 2017 20:43:40 GMT</lastBuildDate><atom:link href="https://Abdul2.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[how to run local drone server]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_intro">intro</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>you can run drone on your Mac and hook-it up to github account. this means you can have your own CI platform. this short note is to remind me what i did to install drone and  hook my github account to it.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_steps">steps</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Register a new OAuth application with github</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>in your github account go to settings</p>
+</li>
+<li>
+<p>in settings go to OAuth Application and register new application</p>
+<div class="literalblock">
+<div class="content">
+<pre>Authorization callback URL --&gt; http://127.0.0.1:9001
+   Homepage URL --&gt; http://localhost:9001/</pre>
+</div>
+</div>
+</li>
+<li>
+<p>the above registration will produce Client ID and Client Secret (you will use these in your drone deployment</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>run drone docker</p>
+<div class="literalblock">
+<div class="content">
+<pre>docker run -d \
+ -e DRONE_GITHUB=true \
+ -e DRONE_GITHUB_CLIENT=&lt;clientID&gt; \
+ -e DRONE_GITHUB_SECRET=&lt;ClientSecret&gt; \
+ -e DRONE_SECRET=&lt;userselectedvalue&gt; \
+ -e DRONE_OPEN=true  \
+ -e DRONE_ADMIN=&lt;name&gt;  \
+ -v /var/lib/drone:/var/lib/drone \
+ -p 9001:8000 \
+ --restart=always \
+ --name=drone \
+ drone/drone:0.5</pre>
+</div>
+</div>
+</li>
+<li>
+<p>go to <a href="http://localhost:9001/" class="bare">http://localhost:9001/</a></p>
+</li>
+</ol>
+</div>
+</div>
+</div>]]></description><link>https://Abdul2.github.io/2017/06/24/how-to-run-local-drone-server.html</link><guid isPermaLink="true">https://Abdul2.github.io/2017/06/24/how-to-run-local-drone-server.html</guid><dc:creator><![CDATA[abdul abdi]]></dc:creator><pubDate>Sat, 24 Jun 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Notes - Drone and Docker]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_drone">drone</h2>
 <div class="sectionbody">
 <div class="literalblock">
