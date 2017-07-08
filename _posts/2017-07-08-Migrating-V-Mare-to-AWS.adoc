@@ -24,6 +24,67 @@ to migrate Vms to AWS you figured you have 3 options:
 
 2)  somehow and despite having only .85 of person to rack, stack, water, feed , keep alive your IT, you managed to keep up with the times and build modular  applications. Bingo, you just have given your self the option of migrating your application in chunks.
 
+3) you are rich and have time and there able to rebuild your apps from scratch. office you have to keep up with your niebours and build nice digital  micro service not to fortget clean interfaces 
+
+
+== Forklift
+
+
+this what you have to do:
+
+
+1) Tools 
+
+install Ec2 cli tools. it is all explained here
+
+https://docs.aws.amazon.com/cli/latest/userguide/installing.html
+
+you need to install the cli on the machine where vm images reside
+
+2) prep your vm
+
+do this;
+
+a) remove Vmware tools
+b) disconnect prepherals (usb ....)
+c) set IP assign to DCHP
+3) shut vm down
+
+3) make image reachable 
+
+a) enable ssh or rdp
+b) enable secure login and disable auto login 
+3) enable GRUB
+
+4) export it
+
+a) export vm using the cli into ec2 
+
+5) start 
+
+ fire-up the newly created instance and you are good to go
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
