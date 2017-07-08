@@ -1,0 +1,33 @@
+= Migrating VMware to AWS
+
+
+== intro 
+	
+there is always the chance of being asked to take your IT with you when leaving your current office. you are then faced with the situation of shifting  your application load to the cloud or a weekend job and rented van.
+
+say you dont want to hire a van and you dot like weekend driving in London and you want to be all tech savvy and join the AWS stampeed.
+
+what do you then.
+
+ok ...
+
+think ...
+
+== my options
+
+you though hard, created a AWS test account and you are now a guru in all thing Amazon Web Service (you are a DIY kind of girl and you just know stuff when needed. no expensive tedious class based training).
+
+to migrate Vms to AWS you figured you have 3 options:
+
+1) forklift - basically over the last ten years you forgot to document and now you have dark corners in your infra and sometimes at night you wake up thinking 'how come this stuff still working?'. i this scenario try not to be the smart one and take the easy way out and forklift your vm
+
+
+2)  somehow and despite having only .85 of person to rack, stack, water, feed , keep alive your IT, you managed to keep up with the times and build modular  applications. Bingo, you just have given your self the option of migrating your application in chunks.
+
+
+
+
+
+
+
+
