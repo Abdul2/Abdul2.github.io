@@ -1,4 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://Abdul2.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 24 Jun 2017 20:43:40 GMT</lastBuildDate><atom:link href="https://Abdul2.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[how to run local drone server]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://Abdul2.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 08 Jul 2017 08:45:47 GMT</lastBuildDate><atom:link href="https://Abdul2.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Migrating VMware to AWS]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_intro">intro</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>there is always the chance of being asked to take your IT with you when leaving your current office. you are then faced with the situation of shifting  your application load to the cloud or a weekend job and a rented van to take your racks on a tour of the best city on earth (london)</p>
+</div>
+<div class="paragraph">
+<p>say you dont want to hire a van and you don’t  like weekend driving in London and you want to be all tech savvy and join the AWS stampede.</p>
+</div>
+<div class="paragraph">
+<p>what do you then.</p>
+</div>
+<div class="paragraph">
+<p>ok &#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>think &#8230;&#8203;</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_my_options">my options</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>you though hard, created an AWS test account and you are now a guru in all thing Amazon Web Service (you are a DIY kind of girl and you just know stuff when needed. no expensive tedious class based training).</p>
+</div>
+<div class="paragraph">
+<p>to migrate Vms to AWS you figured you have 3 options:</p>
+</div>
+<div class="paragraph">
+<p>1) lifandshift - basically over the last ten years you forgot to document and now you have dark corners in your infra and sometimes at night you wake up thinking 'how come this stuff still working?'. i this scenario try not to be the smart one and take the easy way out and forklift your vms.</p>
+</div>
+<div class="paragraph">
+<p>2)  somehow and despite having only .85 of person to rack, stack, water, feed , keep alive your IT, you managed to keep up with the times and build modular  applications. Bingo, you just have given your self the option of migrating your application in chunks.</p>
+</div>
+<div class="paragraph">
+<p>3) you are rich and have time and there able to rebuild your apps from scratch. Ofcourse  you have to keep up with your the  your next doors and build nice digital  micro service not to forget clean interfaces</p>
+</div>
+<div class="paragraph">
+<p>The reality is you have no time and you have no time to do 2 or 3, so let lift and shift sms into AWS.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_lift_and_shift">Lift and shift</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>this what you have to do:</p>
+</div>
+<div class="paragraph">
+<p>1) Tools</p>
+</div>
+<div class="paragraph">
+<p>install Ec2 cli tools. it is all explained here</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.aws.amazon.com/cli/latest/userguide/installing.html" class="bare">https://docs.aws.amazon.com/cli/latest/userguide/installing.html</a></p>
+</div>
+<div class="paragraph">
+<p>you need to install the cli on the machine where vm images reside</p>
+</div>
+<div class="paragraph">
+<p>2) prep your vm</p>
+</div>
+<div class="paragraph">
+<p>do this;</p>
+</div>
+<div class="paragraph">
+<p>a) remove Vmware tools
+b) disconnect peripherals (usb &#8230;&#8203;.)
+c) set IP assign to DHCP
+3) shut vm down</p>
+</div>
+<div class="paragraph">
+<p>3) make image reachable</p>
+</div>
+<div class="paragraph">
+<p>a) enable ssh or rdp
+b) enable secure login and disable auto login
+3) enable GRUB</p>
+</div>
+<div class="paragraph">
+<p>4) export it</p>
+</div>
+<div class="paragraph">
+<p>a) export vm using the cli into ec2</p>
+</div>
+<div class="paragraph">
+<p>5) start</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>fire-up the newly created instance and you are good to go</pre>
+</div>
+</div>
+</div>
+</div>]]></description><link>https://Abdul2.github.io/2017/07/08/Migrating-V-Mare-to-AWS.html</link><guid isPermaLink="true">https://Abdul2.github.io/2017/07/08/Migrating-V-Mare-to-AWS.html</guid><dc:creator><![CDATA[abdul abdi]]></dc:creator><pubDate>Sat, 08 Jul 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[how to run local drone server]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_intro">intro</h2>
 <div class="sectionbody">
 <div class="paragraph">
